@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="stopwatch">
+    <div class="arrow__screen">
+        <div class="arrow__screen__watch">
+            <p>Stopwath</p>
+            <div class="arrow animation stop"></div>
+        </div>
+    </div>
+
+    <div class="screen">
+        <span class="screen__time">00:00</span>
+    </div>
+
+    <div class="intervals-conteiner">
+        <div class="intervals"></div>
+    </div>
+
+    <div class="actions">
+        <button class="actions__start-pause btn">старт</button>
+        <button class="time__interval btn" disabled="disabled">интервал</button>
+        <button class="actions__clean-interval btn" disabled="disabled">очистить</button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
